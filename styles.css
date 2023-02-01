@@ -1,0 +1,13 @@
+.gridContainer {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+}
+
+.row {
+    background-color: aqua;
+}
