@@ -1,13 +1,22 @@
 .gridContainer {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .column {
+    height: 100%;
+    width: 10px;
     display: flex;
     flex-direction: column;
-    background-color: pink;
 }
 
 .row {
-    background-color: aqua;
+    min-height: 10px;
+    min-width: 10px;
+    border: 1px solid black;
+    flex: 0;
+    background-color: white;
 }
